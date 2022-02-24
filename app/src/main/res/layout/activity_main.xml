@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kas"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/player1"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="464dp"
+        android:layout_marginBottom="212dp"
+        android:fontFamily="sans-serif-black"
+        android:text="PLAYER 1 "
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/player2"
+        android:layout_width="162dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="546dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="301dp"
+        android:fontFamily="sans-serif-black"
+        android:text="PLAYER 2"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/mao1"
+        android:layout_width="191dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="432dp"
+        android:layout_marginBottom="125dp"
+        android:rotation="-103"
+        android:rotationY="174"
+        android:src="@drawable/mao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/mao2"
+        android:layout_width="176dp"
+        android:layout_height="173dp"
+        android:layout_marginStart="427dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="125dp"
+        android:rotation="257"
+        android:rotationX="-360"
+        android:rotationY="360"
+        android:src="@drawable/mao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/vs"
+        android:layout_width="136dp"
+        android:layout_height="304dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="99dp"
+        android:src="@drawable/vsss"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518" />
+
+    <TextView
+        android:id="@+id/win"
+        android:layout_width="191dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="27dp"
+        android:fontFamily="sans-serif-black"
+        android:text="EMPATE"
+        android:textColor="#F1EBEB"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
