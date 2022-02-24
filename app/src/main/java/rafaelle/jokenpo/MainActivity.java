@@ -36,6 +36,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 Toast alerta = Toast.makeText(getApplicationContext(), "kkkkkkkkkkkkkkkk", Toast.LENGTH_LONG);
                 alerta.show();
+                maoa.setImageResource(R.drawable.pedra);
 
             }
 
