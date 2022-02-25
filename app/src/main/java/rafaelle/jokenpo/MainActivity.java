@@ -18,8 +18,8 @@ public class MainActivity extends Activity {
     private TextView player22;
     private TextView result;
     private ImageView vss;
-    private int escolha1;
-    private int escolha2;
+    private int escolha1 = 0;
+    private int escolha2 = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
